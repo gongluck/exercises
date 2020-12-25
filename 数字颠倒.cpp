@@ -1,20 +1,20 @@
 /*
-ÊäÈëÒ»¸öÕûÊý£¬½«Õâ¸öÕûÊýÒÔ×Ö·û´®µÄÐÎÊ½ÄæÐòÊä³ö
-³ÌÐò²»¿¼ÂÇ¸ºÊýµÄÇé¿ö£¬ÈôÊý×Öº¬ÓÐ0£¬ÔòÄæÐòÐÎÊ½Ò²º¬ÓÐ0£¬ÈçÊäÈëÎª100£¬ÔòÊä³öÎª001 
+è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼Œå°†è¿™ä¸ªæ•´æ•°ä»¥å­—ç¬¦ä¸²çš„å½¢å¼é€†åºè¾“å‡º
+ç¨‹åºä¸è€ƒè™‘è´Ÿæ•°çš„æƒ…å†µï¼Œè‹¥æ•°å­—å«æœ‰0ï¼Œåˆ™é€†åºå½¢å¼ä¹Ÿå«æœ‰0ï¼Œå¦‚è¾“å…¥ä¸º100ï¼Œåˆ™è¾“å‡ºä¸º001 
 */
 
 #include <iostream>
 
 int main()
 {
-    int N = 0;
+    int N=0;
     std::cin >> N;
-    int n = 0;
-    for(n=N%10,N/=10; N>0||n>0; n=N%10,N/=10)
+    
+    while(N > 0)
     {
-        std::cout << n;
+        std::cout << N%10;
+        N /= 10;
     }
-    std::cout << std::endl;
     
     return 0;
 }

@@ -1,4 +1,4 @@
-// Ð´³öÒ»¸ö³ÌÐò£¬½ÓÊÜÒ»¸ö×Ö·û´®£¬È»ºóÊä³ö¸Ã×Ö·û´®·´×ªºóµÄ×Ö·û´®¡££¨×Ö·û´®³¤¶È²»³¬¹ý1000£©
+// å†™å‡ºä¸€ä¸ªç¨‹åºï¼ŒæŽ¥å—ä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œç„¶åŽè¾“å‡ºè¯¥å­—ç¬¦ä¸²åè½¬åŽçš„å­—ç¬¦ä¸²ã€‚ï¼ˆå­—ç¬¦ä¸²é•¿åº¦ä¸è¶…è¿‡1000ï¼‰
 
 #include <iostream>
 
@@ -10,6 +10,7 @@ int main()
     {
         std::cout << *it;
     }
+    std::cout << std::endl;
     
     return 0;
 }
